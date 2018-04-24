@@ -1,6 +1,6 @@
 {
   "name": "nuxt-demo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Nuxt.js project",
   "author": "Sylvain Gogel <sylvain.gogel@gmail.com>",
   "private": true,
@@ -11,7 +11,7 @@
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
-"    commitmsg": "commitlint -e $GIT_PARAMS",
+    "    commitmsg": "commitlint -e $GIT_PARAMS",
     "release": "standard-version --no-verify"
   },
   "dependencies": {
